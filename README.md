@@ -28,3 +28,5 @@ Using the retrieve weather data we developed a user search interface for vacatio
 Taking the users preference on weather of maximum 90 degrees and minimal of 75 degree for vacation destination we were able to map them a 4 city driving tour in Brazil using Google Maps API. Weather pattern change daily and our data pull from January 2021, so the majority of the warmer climate cities are Southern Hemisphere that will be equal to and or less that zero degrees longitude.  
 
 ![vacation_itinerary_folder](https://github.com/JimmyJ-D/World_Weather_Analysis/blob/main/Vacation_Itinerary/WeatherPy_travel_map.png)
+
+ALL API KEYS HAVE BEEN REMOVED FROM THE CODE PER INSTRUCTIONS. 

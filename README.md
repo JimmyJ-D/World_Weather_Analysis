@@ -3,7 +3,7 @@ Using Python, API, and gmaps
 
 ## Overview and Parameters
 
-We exam weather patterns around the world and design a user input weather app that can provides recommendation narrow destinations based on preferred vacationing temperatures. Using Python, gmaps and OpenWeatherMap we will analyze weather databases, perform a filtered search and recommend a driving itinerary using the returned destinations from the perferred temperature inputs. 
+We exam weather patterns around the world and design a user input weather app that can provide destination recommendations based on preferred  temperatures. Using Python, OpenWeatherMap, and Google Map API we will analyze weather databases, perform a filtered search and recommend a driving itinerary using the returned destinations from the perferred temperature inputs. 
 
 ### Deliverable 1 : Retrieve Weather Data
 Using the "citipy module" we generated 2000 random latitudes and longitudes points and mapped them to over 750 cities. Using the OpenWeatherMap API we were able to filter the cities into a dataframe with the following data:

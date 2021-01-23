@@ -3,26 +3,28 @@ Using Python, API, and gmaps
 
 ## Overview and Parameters
 
-We have been has to look at weather patterns around the world and design a simulation of a weather app that takes uses input and provide recommended destination and travel itinerary map. Using Python, gmaps and OpenWeatherMap we will analyze weather databases, perform a vacation search and recommend a driving itinerary. 
+We exam weather patterns around the world and design a user input weather app that can provides recommendation narrow destinations based on preferred vacationing temperatures. Using Python, gmaps and OpenWeatherMap we will analyze weather databases, perform a filtered search and recommend a driving itinerary using the returned destinations from the perferred temperature inputs. 
 
 ### Deliverable 1 : Retrieve Weather Data
-Using the "citipy module we generated 2000 random latitudes and longitudes points and map them to over 750 cities. Using the OpenWeatherMap API we were able create a dataframe with the following:
+Using the "citipy module" we generated 2000 random latitudes and longitudes points and mapped them to over 750 cities. Using the OpenWeatherMap API we were able to filter the cities into a dataframe with the following data:
 
-1. Latitude and Longitude
-2. Maximum Temperature
-3. Percent Humidity
-4. Percent Cloudiness
-5. Wind Speed
-6. Weather Description
+1. City Name
+2. Country
+3. Latitude and Longitude
+4. Maximum Temperature
+5. Humidity
+6. Cloudiness
+7. Wind Speed
+8. Weather Description
 ![weather_database_folder](https://github.com/JimmyJ-D/World_Weather_Analysis/blob/main/Weather_Database/dataframe.png) 
 
 ### Deliverable 2: Creating a Travel Map 
 
-Using the weather data from the dataframe we developed a user search interface for vacationers maximum and minimal ideal temperature at their potential vacation destination. Using Google Maps API we able to show those destination on a marker layer map. 
+Using the retrieve weather data we developed a user search interface for vacationers maximum and minimal ideal temperatures at their potential vacation destination. Using Google Maps API we able to show those destination on a marker layer map. 
 ![vacation_serarch_folder](https://github.com/JimmyJ-D/World_Weather_Analysis/blob/main/Vacation_Itinerary/WeatherPy_travel_map_markers.png)
 
 ### Deliverable 3: Create an itinerary 
 
-Take the users preference on weather of maximum 90 degrees and minimal of 75 degree for vacation destination we were able to map them a 4 city driving tour in Brazil using Google Maps API.
+Taking the users preference on weather of maximum 90 degrees and minimal of 75 degree for vacation destination we were able to map them a 4 city driving tour in Brazil using Google Maps API. Weather pattern change daily and our data pull from January 2021, so the majority of the warmer climate city will be in the Southern Hemisphere or equal to or less that zero degrees longitude.  
 
 ![vacation_itinerary_folder](https://github.com/JimmyJ-D/World_Weather_Analysis/blob/main/Vacation_Itinerary/WeatherPy_travel_map.png)

@@ -18,6 +18,8 @@ Using the "citipy module" we generated 2000 random latitudes and longitudes poin
 8. Weather Description
 ![weather_database_folder](https://github.com/JimmyJ-D/World_Weather_Analysis/blob/main/Weather_Database/dataframe.png) 
 
+![world_marker_map](https://github.com/JimmyJ-D/World_Weather_Analysis/blob/main/WeatherPy_vacation_map.png)
+
 ### Deliverable 2: Creating a Travel Map 
 
 Using the retrieve weather data we developed a user search interface for vacationers maximum and minimal ideal temperatures at their potential vacation destination. Using Google Maps API we able to show those destination on a marker layer map. 
